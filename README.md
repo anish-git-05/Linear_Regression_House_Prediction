@@ -11,6 +11,7 @@ using NumPy, without relying on machine learning libraries for optimization.
 
 ## Dataset
 Indian House Rent Dataset (Kaggle)
+Link: https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset
 
 ## Results
 - RMSE ≈ 67142.03545846639
