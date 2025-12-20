@@ -5,7 +5,7 @@ using NumPy, without relying on machine learning libraries for optimization.
 
 ## What this project demonstrates
 - Manual derivation and implementation of gradient descent
-- Additon of feature for efficient prediction
+- Additon of features for efficient prediction
 - Comparison with scikit-learn's closed-form LinearRegression
 - Analysis of model limitations due to missing locality-level features
 
