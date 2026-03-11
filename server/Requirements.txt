@@ -8,3 +8,4 @@ SQLAlchemy==2.0.48
 pandas==3.0.1
 numpy==2.4.3
 scikit-learn==1.8.0
+flask-cors
