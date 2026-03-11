@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 import "./App.css"
 import API_URL from "./api.js"
 function Predict(){
