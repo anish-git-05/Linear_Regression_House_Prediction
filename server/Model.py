@@ -1,9 +1,11 @@
 import numpy as np
+import os
+BASE_DIR = os.path.dirname(__file__)
 
-weights=np.load('w.npy') 
-bias=np.load('b.npy')
-mean = np.load("mean.npy")
-std = np.load("std.npy")
+weights = np.load(os.path.join(BASE_DIR, "w.npy"))
+bias = np.load(os.path.join(BASE_DIR, "bias.npy"))
+mean = np.load(os.path.join(BASE_DIR, "mean.npy"))
+std = np.load(os.path.join(BASE_DIR, "std.npy"))
 def predict(features):
     X=np.array(features)
     X[:4] = (X[:4] - mean) / std
