@@ -1,5 +1,6 @@
 import {useState} from "react";
 import "./App.css"
+import API_URL from "./api.js"
 function Predict(){
   const [output, setOutput] = useState(null);
   const [input, setInput] = useState({
@@ -23,13 +24,13 @@ function Predict(){
     arr_loc[Number(input.location)]=1;
     arr=arr.concat(arr_loc);
     console.log(arr);
-    const response=await fetch("http://localhost:5000/predict", {
+    const response=await fetch(`${API_URL}/predict`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({features:arr}),
-    });
+    }``);
     const data = await response.json();
     setOutput(data.prediction);
   };

@@ -1,1 +1,1 @@
-export const API_URL=""
+export const API_URL="https://linear-regression-house-prediction.onrender.com"
