@@ -5,6 +5,50 @@ A full-stack machine learning web application that predicts house rent based on 
 The project consists of a **React frontend** and a **Flask backend API** serving a linear regression model trained from scratch using gradient descent.
 
 
+## Dataset
+
+**Indian House Rent Dataset (Kaggle)**
+
+https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset
+
+The dataset contains information about rental properties including:
+
+- BHK
+- Size
+- Number of Bathrooms
+- Furnishing Status
+- City
+- Rent Price
+
+---
+
+## Model Implementation
+
+The model minimizes **Mean Squared Error (MSE)** using gradient descent.
+w = w - α * ∂L/∂w
+b = b - α * ∂L/∂b
+Where:
+
+- `w` = weight vector
+- `b` = bias
+- `α` = learning rate
+- `L` = loss function (MSE)
+
+All computations are implemented using **NumPy vectorized operations**.
+
+## Results
+
+Model performance on the dataset:
+
+
+RMSE ≈ 67142
+
+
+The results are comparable to **scikit-learn's LinearRegression**, indicating that the implementation is correct.
+
+However, prediction accuracy is limited primarily by the **available features**, particularly the lack of fine-grained location information.
+
+---
 ## Live Demo
 
 Frontend:  
