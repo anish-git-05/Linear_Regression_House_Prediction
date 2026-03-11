@@ -42,6 +42,7 @@ Model performance on the dataset:
 
 
 RMSE ≈ 67142
+
 R2 Score=0.313
 
 The results are comparable to **scikit-learn's LinearRegression**, indicating that the implementation is correct.
