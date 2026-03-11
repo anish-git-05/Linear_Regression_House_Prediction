@@ -30,7 +30,7 @@ function Predict(){
         "Content-Type": "application/json",
       },
       body: JSON.stringify({features:arr}),
-    }``);
+    });
     const data = await response.json();
     setOutput(data.prediction);
   };
