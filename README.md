@@ -53,7 +53,7 @@ However, prediction accuracy is limited primarily by the **available features**,
 ## Live Demo
 
 Frontend:  
-https://your-vercel-url
+https://linear-regression-house-prediction.vercel.app/
 
 
 ## Features
